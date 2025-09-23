@@ -50,7 +50,7 @@ GEM
       logger
     redcarpet (3.6.0)
     regexp_parser (2.9.3)
-    rexml (3.4.0)
+    rexml (3.4.4)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -105,10 +105,10 @@ GEM
       docile (~> 1.1)
       simplecov-html (~> 0.11)
       simplecov_json_formatter (~> 0.1)
-    simplecov-cobertura (2.1.0)
+    simplecov-cobertura (3.1.0)
       rexml
       simplecov (~> 0.19)
-    simplecov-html (0.13.1)
+    simplecov-html (0.13.2)
     simplecov_json_formatter (0.1.4)
     simpleidn (0.2.3)
     sorbet (0.5.11708)
@@ -165,7 +165,7 @@ DEPENDENCIES
   plist
   pry
   redcarpet
-  rexml
+  rexml (>= 3.4.2)
   rspec
   rspec-github
   rspec-retry
@@ -182,7 +182,7 @@ DEPENDENCIES
   ruby-prof
   ruby-progressbar
   simplecov
-  simplecov-cobertura
+  simplecov-cobertura (>= 3.0.0)
   sorbet-runtime
   sorbet-static-and-runtime
   spoom
@@ -197,4 +197,4 @@ RUBY VERSION
    ruby 3.3.6p108
 
 BUNDLED WITH
-   2.5.20
+   2.5.22
